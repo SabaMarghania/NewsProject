@@ -1,0 +1,37 @@
+.sidebar{
+    max-width: 25%;
+    padding:25px;
+    margin: 2%;
+    height: 65vh;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.sidebar__title{
+    margin-left: 5%;
+}
+.sidebar__links{
+
+    margin-top: 25px;
+}
+.sidebar__links > ul {
+    list-style: none;
+    padding:5px;
+}
+.sidebar__links > ul >li{
+    margin-top: 15px;
+
+}
+.sidebar__links > ul >li> a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 750px){
+  
+    .sidebar{
+        text-align: center;
+        max-width: 100%;
+    }
+}

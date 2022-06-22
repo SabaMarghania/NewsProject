@@ -1,0 +1,63 @@
+.post__container__item > img{
+    width: 100%;
+    border-radius: 5px;
+}
+.post{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+.post__container__info{
+    display: flex;
+    flex-direction: column;
+}
+.post__container__info > h1{
+    margin-top: 10px;
+}
+.post_desc > p{
+    padding-top:30px;
+    color: rgb(100, 100, 100);
+}
+.post__container__item{
+    max-width: 750px;
+}
+.post__container__subinfo{
+    display: flex;
+}
+.post__container__subinfo > p{
+    margin: 0  10px 0 0;
+    color: rgb(109, 109, 109);
+}
+.comment{
+    margin-top: 20%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form > input, textarea{
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.comments__box__item{
+    display: flex;
+    margin-top: 10px;
+}
+.comments__text{
+    margin-left: 10px;
+}
+.comments__box__item > img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comments__author__profile__info{
+    display: flex;
+    
+}
+.comments__author__profile__info > p{
+    margin:0 10px;
+}

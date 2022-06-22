@@ -1,0 +1,47 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+form > input{
+    margin-top: 10px;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.signup{
+    margin: 20px auto;
+    width: 60%;
+}
+form > button{
+   width: 80%;
+   background-color: #fff;
+   color: #ec4933;
+   margin-top: 10px;
+   padding: 13px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+form > label{
+    margin-top: 10px;
+}
+form > button:hover{
+    background-color: #ec4933;
+    color: #ffffff;
+}
+.gender{
+    display: flex;
+    align-items: center;
+}
+input[type=radio] {
+    border: 0px;
+    width: 50px;
+    height: 1em;
+}
+.gender > h5{
+    margin:0 15px  0;
+}
